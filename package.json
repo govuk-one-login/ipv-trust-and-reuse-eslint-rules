@@ -20,11 +20,19 @@
   "peerDependencies": {
     "@eslint/js": ">=10.0.1",
     "@vitest/eslint-plugin": ">=1.6.18",
-    "eslint": ">=10.4.0",
     "eslint-config-prettier": ">=10.1.8",
     "eslint-plugin-prettier": ">=5.5.5",
+    "eslint": ">=10.4.0",
     "typescript-eslint": ">=8.60.0",
     "vitest": ">=4.1.7"
+  },
+  "peerDependenciesMeta": {
+    "vitest": {
+      "optional": true
+    },
+    "@vitest/eslint-plugin": {
+      "optional": true
+    }
   },
   "main": "./src/index.mjs",
   "module": "./src/index.mjs",
