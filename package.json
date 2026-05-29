@@ -1,0 +1,47 @@
+{
+  "name": "ipv-trust-and-reuse-eslint-rules",
+  "version": "1.0.0",
+  "description": "ESLint rules for the Trust and Reuse Team components",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govuk-one-login/ipv-trust-and-reuse-eslint-rules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/govuk-one-login/ipv-trust-and-reuse-eslint-rules/issues"
+  },
+  "homepage": "https://github.com/govuk-one-login/ipv-trust-and-reuse-eslint-rules#readme",
+  "peerDependencies": {
+    "@eslint/js": ">=10.0.1",
+    "@vitest/eslint-plugin": ">=1.6.18",
+    "eslint-config-prettier": ">=10.1.8",
+    "eslint-plugin-prettier": ">=5.5.5",
+    "eslint": ">=10.4.0",
+    "typescript-eslint": ">=8.60.0",
+    "vitest": ">=4.1.7"
+  },
+  "peerDependenciesMeta": {
+    "vitest": {
+      "optional": true
+    },
+    "@vitest/eslint-plugin": {
+      "optional": true
+    }
+  },
+  "main": "./src/index.mjs",
+  "module": "./src/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src/"
+  ]
+}
