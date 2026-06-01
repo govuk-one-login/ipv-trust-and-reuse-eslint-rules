@@ -1,5 +1,5 @@
 {
-  "name": "ipv-trust-and-reuse-eslint-rules",
+  "name": "@govuk-one-login/ipv-trust-and-reuse-eslint-rules",
   "version": "1.0.0",
   "description": "ESLint rules for the Trust and Reuse Team components",
   "scripts": {
