@@ -1,3 +1,1 @@
-import ESLintConfig from "./src/index.mjs";
-
-export default ESLintConfig;
+export { default } from "./src/index.mjs";

@@ -3,6 +3,7 @@
 import js from "@eslint/js";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import tseslint from "typescript-eslint";
+import unicorn from "eslint-plugin-unicorn";
 import { defineConfig } from "eslint/config";
 
 /**
@@ -16,7 +17,7 @@ const resolveESLintPlugin = async (moduleName, modulePlugin) => {
   try {
     await import(moduleName);
   } catch {
-    return undefined; // Not available
+    return; // Not available
   }
 
   try {
@@ -34,6 +35,7 @@ export default defineConfig(
   js.configs.recommended,
   ...tseslint.configs.recommended,
   eslintPluginPrettierRecommended,
+  unicorn.configs.recommended,
   ...(vitest ? [vitest.default.configs.recommended] : []),
   {
     rules: {
