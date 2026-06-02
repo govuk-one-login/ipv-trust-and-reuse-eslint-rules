@@ -24,9 +24,7 @@ Provides a set of standard ESLint rules for the Trust and Reuse Team components.
 3. Create the top level file `eslint.config.mjs` with the following contents:
 
    ```typescript
-   import ESLintConfig from "ipv-trust-and-reuse-eslint-rules";
-
-   export default ESLintConfig;
+   export { default } from "@govuk-one-login/ipv-trust-and-reuse-eslint-rules";
    ```
 
 4. Ensure that your package.json `"scripts"` contains an eslint entry, for example:
