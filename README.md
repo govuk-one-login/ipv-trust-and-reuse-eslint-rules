@@ -12,7 +12,7 @@ Provides a set of standard ESLint rules for the Trust and Reuse Team components.
 1. Install the required package for the library. This should be stored as a `devDependencies` and it's recommended to pin the version.
 
    ```bash
-   npm i --save-dev -E @eslint/js eslint eslint-config-prettier eslint-plugin-prettier typescript-eslint
+   npm i --save-dev -E @eslint/js eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-unicorn typescript-eslint
    ```
 
 2. From the command line install the package using. This should be stored as a `devDependencies` and it's recommended to pin the version.
