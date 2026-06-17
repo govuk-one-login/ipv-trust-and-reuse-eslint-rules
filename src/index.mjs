@@ -40,8 +40,8 @@ export default defineConfig(
   {
     rules: {
       "no-console": "error",
-      "prefer-object-has-own": "error", // Make compliant with SonarQube Sonar Way rule typescript:S6653
-      "no-prototype-builtins": "error", // Make compliant with SonarQube Sonar Way rule typescript:S6653
+      "prefer-object-has-own": "error", // Make compliant with SonarQube Sonar Way rule TypeScript:S6653
+      "no-prototype-builtins": "error", // Make compliant with SonarQube Sonar Way rule TypeScript:S6653
     },
   },
 );
