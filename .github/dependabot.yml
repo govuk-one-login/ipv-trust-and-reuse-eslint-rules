@@ -20,6 +20,12 @@ updates:
         dependency-type: "development"
         patterns:
           - "*"
+        ignore:
+          - "eslint-plugin-unicorn"
+      eslint-unicorn:
+        dependency-type: "development"
+        patterns:
+          - "eslint-plugin-unicorn"
 
   - package-ecosystem: github-actions
     directories:
