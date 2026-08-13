@@ -16,14 +16,10 @@ updates:
         dependency-type: "production"
         patterns:
           - "*"
-      development-dependencies:
-        dependency-type: "development"
-        patterns:
-          - "*"
         exclude-patterns:
           - "eslint-plugin-unicorn"
       eslint-unicorn:
-        dependency-type: "development"
+        dependency-type: "production"
         patterns:
           - "eslint-plugin-unicorn"
 
