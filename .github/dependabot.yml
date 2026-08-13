@@ -20,7 +20,7 @@ updates:
         dependency-type: "development"
         patterns:
           - "*"
-        ignore:
+        exclude-patterns:
           - "eslint-plugin-unicorn"
       eslint-unicorn:
         dependency-type: "development"
