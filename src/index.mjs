@@ -42,6 +42,7 @@ export default defineConfig(
       "no-console": "error",
       "prefer-object-has-own": "error", // Make compliant with SonarQube Sonar Way rule TypeScript:S6653
       "no-prototype-builtins": "error", // Make compliant with SonarQube Sonar Way rule TypeScript:S6653
+      "unicorn/no-asterisk-prefix-in-documentation-comments": "off",
     },
   },
 );
